@@ -4,9 +4,9 @@
         "phpunit/phpunit": "^13.2"
     },
     "autoload": {
-        "psr-4": {
-            "Macha\\Job02\\": "src/"
-        }
+        "classmap": [
+            "src/"
+        ]
     },
     "authors": [
         {
